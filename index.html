@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
   </head>
   <body>
-    <div class="container">
+
 
 <!-- logo and navigation -->
-      <!-- <header>
+      <header>
+
         <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <img src="img/coffee-pot.png" alt="Brand Logo Coffee">
-          <a class="navbar-brand" href="#">Cozy Coffee</a>
-
+          <a class="navbar-brand" href="#">Cozy</a>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
               <li class="nav-item active">
@@ -35,38 +35,28 @@
             </div>
           </div>
         </nav>
-      </header> -->
+      </header>
 <!-- email sign up -->
-      <div class="card text-center">
-
+      <div class="sign-up card text-center">
+        <div class="card-header">
+          <span class="close">X</span>
+        </div>
         <div class="card-body">
-          <div class="card-header">
-            X
-          </div>
           <img src="img/plane.png" class="plane" alt="Paper airplane">
-          <h4 class="card-title">Get updates from Cozy Coffee</h4>
+          <h4 class="card-title">Get updates from Cozy Pot</h4>
           <p class="card-text">Sign up for stories, coffee tips, and special gear..</p>
-          <form class="form-inline">
-            <div class="form-group">
+          <form>
+            <div class="form-row">
+              <div class="col-lg-6">
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="you@yourname.com">
+              </div>
+              <div class="col-lg-6">
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+              </div>
             </div>
-            <button type="submit" class="btn btn-primary">Sign Up</button>
           </form>
         </div>
       </div>
-<!-- 
-      <div class="sign-up">
-        <img src="img/plane.png" class="plane" alt="Paper airplane">
-        <h3>Get updates from Cozy Coffee</h3>
-        <h4>Sign up for stories, coffee tips, and special gear.</h4>
-        <form class="form-inline">
-          <div class="form-group">
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="you@yourname.com">
-          </div>
-          <button type="submit" class="btn btn-primary">Sign Up</button>
-        </form>
-      </div> -->
-
 <!-- carousel -->
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -77,12 +67,27 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100" src="img/beans.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <p>Smells Amazing!</p>
+             <h3>Beans Sale</h3>
+             <button class="btn btn-primary" type="button" name="button">Shop Beans</button>
+           </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="img/campfire.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <p>The Coziest Cup</p>
+             <h3>Latte Love</h3>
+             <button class="btn btn-primary" type="button" name="button">Shop Lattes</button>
+           </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="img/lattes.jpg" alt="Third slide">
+             <div class="carousel-caption d-none d-md-block">
+               <p>The Coziest Cup</p>
+              <h3>Coffee Sale</h3>
+              <button class="btn btn-primary" type="button" name="button">Shop Coffee</button>
+            </div>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -94,18 +99,15 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <div class="Carousel-Text">
-        <h5>The best coffee</h5>
-        <h1>Coffee Sale</h1>
-        <button type="button" name="button">Shop Coffee</button>
-      </div>
-
+<!-- container! -->
+    <div class="container">
+<!-- cards -->
       <div class="row">
         <div class="col-md-6">
           <div class="card">
-            <img class="card-img-top" src="img/beans.jpg" alt="Card image cap">
+            <img class="card-img-top" src="img/leaf.jpeg" alt="Card image cap">
             <div class="card-body">
-              <h4 class="card-title">Card title</h4>
+              <h4 class="card-title">Coffee Date</h4>
               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="card-link">Card link</a>
@@ -114,9 +116,9 @@
         </div>
         <div class="col-md-6">
           <div class="card">
-            <img class="card-img-top" src="img/beans.jpg" alt="Card image cap">
+            <img class="card-img-top" src="img/circle.jpeg" alt="Card image cap">
             <div class="card-body">
-              <h4 class="card-title">Card title</h4>
+              <h4 class="card-title">The gang's all here!</h4>
               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="card-link">Card link</a>

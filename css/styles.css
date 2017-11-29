@@ -3,7 +3,67 @@ body{
   padding: 0;
 }
 
+.sign-up {
+  margin: 5vh auto;
+}
 
-.container{
+form{
+  display: block;
+  margin: 0 auto;
+  max-width: 45vw;
+}
+form button {
+  padding: 0;
+  width: 45vw;
+  }
+
+.close {
+  float:right;
+  font-size: 18px;
+}
+
+.sign-up {
+  margin: 6vh auto 2vh auto;
+  max-width: 600px;
+}
+
+.carousel {
+}
+
+.carousel-caption h1{
+  font-size:300px;
+}
+
+.container .card {
+  margin-top: 3vh;
+}
+
+
+@media (min-width: 576px) {
 
 }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+input {
+  max-width:20vw;
+  }
+
+form button {
+  margin: 0;
+  max-width:10vw;
+  }
+
+  .carousel-caption  {
+    margin: auto 45vw 20vh auto;
+  }
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
