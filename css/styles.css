@@ -27,15 +27,34 @@ form button {
   max-width: 600px;
 }
 
-.carousel {
+.carousel-caption h3{
+  font-size: 8vw;
 }
 
-.carousel-caption h1{
-  font-size:300px;
+.carousel-caption p{
+  font-size:2.3vw;
 }
 
 .container .card {
   margin-top: 3vh;
+}
+
+.container .row:last-child{
+  margin-bottom: 15vh;
+}
+
+.carousel-item {
+  postion:relative;
+}
+
+.carousel-caption  {
+  position: absolute;
+  top:18vh;
+  right:40vw;
+}
+
+.carousel-caption a{
+  width: 10vw;
 }
 
 
@@ -59,11 +78,13 @@ form button {
   max-width:10vw;
   }
 
-  .carousel-caption  {
-    margin: auto 45vw 20vh auto;
-  }
-
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+  .carousel-caption  {
+    position: absolute;
+    top:28vh;
+    right:40vw;
+  }
+}
